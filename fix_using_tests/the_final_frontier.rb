@@ -9,7 +9,7 @@ def state_log(star_date)
 end
 
 def crew
-  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  hash = {"Geordi", "Data", "Worf", "William", "Beverly", "Deanna"}
 end
 
 def greet_crew (crew)
