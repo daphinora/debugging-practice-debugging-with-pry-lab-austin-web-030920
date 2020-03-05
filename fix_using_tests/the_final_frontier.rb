@@ -13,7 +13,11 @@ def crew
 end
 
 def greet_crew (crew)
+  counter = 0
+  while counter < crew.length do
   crew.each {|crew_member| "Hello #{crew_member}."}
+  counter += 1
+end
 end
 
 def engage 
